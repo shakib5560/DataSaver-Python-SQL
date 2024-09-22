@@ -1,7 +1,7 @@
 
 YouTube Manager
 
-This is a simple YouTube video management application built using Python and SQLite3. The application allows users to add, view, update, and delete videos from a local SQLite database.
+This is a simple text Data management application built using Python and SQLite3. The application allows users to add, view, update, and delete videos from a local SQLite database.
 
 Features
 

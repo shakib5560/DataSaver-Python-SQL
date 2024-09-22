@@ -47,7 +47,7 @@ def updatevideo():
 
 def main():
     while True:
-        print("\n 1. Add youtube video")
+        print("1. Add youtube video")
         print("2. View all videos")
         print("3. View a particular video")
         print("4. Delete a video")
@@ -58,16 +58,44 @@ def main():
         match ch:
             case 1:
                 addvideo()
+                print("\n Optins: \n 1: menu \n 2: exit")
+                ch = int(input("Enter your choice: "))
+                if ch == 1:
+                    continue
+                else:
+                    break
             case 2:
                 viewall()
-                break
+                print("\n Optins: \n 1: menu \n 2: exit")
+                ch = int(input("Enter your choice: "))
+                if ch == 1:
+                    continue
+                else:
+                    break
             case 3:
                 viewparticular()
-                break
+                print("\n Optins: \n 1: menu \n 2: exit")
+                ch = int(input("Enter your choice: "))
+                if ch == 1:
+                    continue
+                else:
+                    break
             case 4:
                 deletevideo()
+                print("\n Optins: \n 1: menu \n 2: exit")
+                ch = int(input("Enter your choice: "))
+                if ch == 1:
+                    continue
+                else:
+                    break
             case 5:
                 updatevideo()
+                print("\n Optins: \n 1: menu \n 2: exit")
+                ch = int(input("Enter your choice: "))
+                if ch == 1:
+                    continue
+                else:
+                    break
             case 6:
                 break
             case _:
